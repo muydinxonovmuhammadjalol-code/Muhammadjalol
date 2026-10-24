@@ -1,0 +1,1078 @@
+You are an elite team of senior full-stack developers, professional UI/UX designers, sports data engineers, 3D web developers, animation specialists, and product architects.
+
+Your mission is to build an exceptionally realistic, premium, professional boxing sports website called "RING LEGACY".
+
+IMPORTANT: DO NOT CREATE A BASIC TEMPLATE, SIMPLE LANDING PAGE, STATIC MOCKUP, OR BORING DASHBOARD.
+
+Build a complete, multi-page, responsive, interactive, high-quality boxing platform that looks and feels like a real international sports media company.
+
+The website must have professional visual design, realistic boxing photography, rich content, working navigation, functional search, interactive statistics, fighter profiles, event pages, rankings, training features, and an advanced administrator dashboard.
+
+Every important button must perform a real action. Every navigation item must open a working page or section. All interactive elements must work correctly.
+
+Do not create fake functionality that merely looks clickable.
+
+==================================================
+1. BRAND IDENTITY AND VISUAL DIRECTION
+==================================================
+
+Brand name: RING LEGACY
+Tagline: THE ART. THE DISCIPLINE. THE LEGACY.
+
+Design a sophisticated, cinematic, premium boxing sports platform.
+
+Visual inspiration:
+- International boxing championship broadcasts.
+- Premium sports journalism websites.
+- Professional athlete performance dashboards.
+- Cinematic arena photography.
+- High-end black-and-white editorial design.
+
+Use an elegant dark theme with:
+- Deep black backgrounds.
+- Charcoal gray surfaces.
+- Off-white typography.
+- Championship gold accents.
+- Restrained red highlights.
+- Subtle borders.
+- Professional shadows.
+- Cinematic photographic backgrounds.
+
+Avoid:
+- Cheap-looking gradients everywhere.
+- Cartoonish boxing graphics.
+- Excessive rounded cards.
+- Oversized empty spaces.
+- Generic AI-generated website layouts.
+- Fake sponsors pretending to be real companies.
+- Broken images.
+- Unnecessary animations.
+- Excessive neon colors.
+
+Typography:
+Use a powerful condensed display font for headlines and a clean sans-serif font for body text.
+
+Use strong typographic hierarchy, uppercase section labels, large editorial headlines, readable paragraphs, and carefully aligned grids.
+
+The interface should feel premium, authentic, confident, and professionally art-directed.
+
+==================================================
+2. HOMEPAGE — CINEMATIC EXPERIENCE
+==================================================
+
+Create an impressive homepage with the following sections.
+
+A. Announcement bar:
+- Upcoming championship announcement.
+- Countdown to the next featured event.
+- Dismissible announcement.
+- Link to event details.
+
+B. Professional navigation:
+- RING LEGACY logo.
+- Home.
+- Fighters.
+- Events.
+- Rankings.
+- News.
+- Statistics.
+- Training.
+- Community.
+- Search.
+- Language selector.
+- Theme selector.
+- Sign-in button.
+- Mobile navigation drawer.
+
+The navigation bar should remain accessible while scrolling and adapt elegantly to mobile screens.
+
+C. Hero section:
+
+Create a cinematic, full-width boxing hero section with realistic, licensed, or otherwise appropriately sourced boxing photography.
+
+Feature a dramatic arena atmosphere with:
+- Professional boxing ring.
+- Bright overhead arena lights.
+- Realistic audience in the background.
+- Athletic fighters in a professional sports context.
+- Natural photographic textures.
+- Strong contrast.
+- Editorial headline typography.
+- Subtle movement and depth.
+
+Do not use graphic injuries, blood, or disturbing imagery.
+
+Hero headline:
+"WHERE LEGENDS ARE MADE"
+
+Supporting text:
+"Discover the fighters, rivalries, championship events, and stories shaping the world of boxing."
+
+Primary button:
+"EXPLORE FIGHTERS"
+
+Secondary button:
+"VIEW UPCOMING EVENTS"
+
+Add a featured event panel containing:
+- Event name.
+- Date and time.
+- Venue.
+- Location.
+- Fighter portraits.
+- Weight class.
+- Event status.
+- Countdown timer.
+
+The countdown must calculate the time remaining from the actual event date.
+
+Never display an incorrect countdown.
+
+D. Featured fighters:
+
+Create visually rich fighter cards with:
+- Large portrait.
+- Full name.
+- Nationality.
+- Weight division.
+- Professional record.
+- Wins.
+- Losses.
+- Draws.
+- Knockouts.
+- Current ranking.
+- Profile link.
+- Favorite button.
+
+Use realistic sample data and clearly distinguish demonstration records from verified real-world statistics.
+
+E. Upcoming events:
+
+Display professional event cards with:
+- Event poster.
+- Event title.
+- Date.
+- Venue.
+- City.
+- Main event.
+- Undercard.
+- Weight divisions.
+- Event status.
+- Event details button.
+
+Provide functional filters for:
+- Upcoming.
+- Completed.
+- This month.
+- Next month.
+- Weight class.
+- Location.
+
+F. Latest boxing news:
+
+Create a professional sports editorial section containing:
+- Main featured story.
+- Smaller news cards.
+- Author.
+- Publication date.
+- Category.
+- Estimated reading time.
+- Article detail pages.
+- Related stories.
+- Share buttons.
+
+Do not present invented news as verified journalism.
+
+Clearly label sample editorial content as demonstration content.
+
+G. Rankings preview:
+
+Show a ranking table with:
+- Position.
+- Fighter.
+- Division.
+- Record.
+- Movement indicator.
+- Profile link.
+
+Include a button to open the full rankings page.
+
+H. Boxing statistics overview:
+
+Display interactive statistic cards for:
+- Listed fighters.
+- Upcoming events.
+- Weight divisions.
+- Published articles.
+
+Only use values that can be derived from the application's data.
+
+Never invent live platform statistics.
+
+I. Newsletter section:
+
+Include:
+- Email input.
+- Validation.
+- Subscribe button.
+- Loading state.
+- Success message.
+- Error message.
+
+Do not claim that an email was sent or subscribed unless the backend confirms success.
+
+J. Professional footer:
+
+Include:
+- Brand information.
+- Navigation links.
+- Contact information.
+- Privacy policy.
+- Terms of service.
+- Accessibility.
+- Social links.
+- Newsletter form.
+- Copyright year generated dynamically.
+
+==================================================
+3. FIGHTER DIRECTORY
+==================================================
+
+Create a complete fighter directory page.
+
+Features:
+- Search by name.
+- Filter by country.
+- Filter by weight class.
+- Filter by active or retired status.
+- Sort by ranking.
+- Sort by wins.
+- Sort by knockout count.
+- Sort alphabetically.
+- Grid and list views.
+- Pagination.
+- Results count.
+- Empty search state.
+- Loading state.
+- Clear filters button.
+
+Create realistic sample fighter profiles with fictional athletes.
+
+Each profile must have a dedicated route, for example:
+
+/fighters/fighter-001
+
+The fighter profile page should contain:
+
+1. Large athlete portrait.
+2. Full name.
+3. Nickname, if applicable.
+4. Nationality.
+5. Date of birth, when appropriate for the fictional athlete.
+6. Weight division.
+7. Stance.
+8. Height.
+9. Reach.
+10. Professional record.
+11. Wins, losses, draws, and knockouts.
+12. Career overview.
+13. Achievements.
+14. Recent results.
+15. Upcoming fights.
+16. Career timeline.
+17. Statistical charts.
+18. Related fighters.
+19. Favorite button.
+20. Share profile button.
+
+For fictional sample athletes, use fictional names, records, and portraits.
+
+Do not invent personal information about real athletes.
+
+Clearly identify fictional demonstration records.
+
+==================================================
+4. FIGHTER COMPARISON TOOL
+==================================================
+
+Build an interactive comparison page.
+
+Allow users to select two fighters from the directory.
+
+Compare:
+- Professional record.
+- Wins.
+- Losses.
+- Draws.
+- Knockouts.
+- Weight division.
+- Height.
+- Reach.
+- Stance.
+- Ranking.
+- Recent results.
+
+Display:
+- Side-by-side comparison cards.
+- Radar chart where appropriate.
+- Bar charts.
+- Statistical differences.
+- Clear explanatory labels.
+
+Validate that both fighters exist in the dataset.
+
+Provide a reset button and a shareable comparison URL.
+
+Do not invent statistics when data is missing.
+
+Show "Data unavailable" when a value cannot be verified.
+
+Do not declare a winner based solely on incomplete statistics.
+
+==================================================
+5. EVENTS AND CHAMPIONSHIP CENTER
+==================================================
+
+Create a comprehensive events page.
+
+Event categories:
+- Upcoming events.
+- Completed events.
+- Championship events.
+- Exhibition events.
+- Amateur events.
+
+Each event must have:
+- Dedicated event page.
+- Event poster.
+- Event date.
+- Venue.
+- Location.
+- Main event.
+- Undercard.
+- Participating fighters.
+- Weight divisions.
+- Event status.
+- Results, if completed.
+- Official source field.
+- Related news.
+
+Build an interactive fight card.
+
+Users can expand each matchup to see:
+- Fighter profiles.
+- Records.
+- Weight class.
+- Match status.
+- Scheduled rounds, if applicable.
+- Verified result when available.
+
+Support event search, date filters, division filters, and sorting.
+
+For future events, show countdown timers.
+
+For completed events, show final results only when they are available in the database.
+
+Never fabricate live event status or official results.
+
+==================================================
+6. PROFESSIONAL BOXING RANKINGS
+==================================================
+
+Build a rankings center.
+
+Include configurable ranking categories:
+- Pound-for-pound.
+- Heavyweight.
+- Cruiserweight.
+- Light heavyweight.
+- Super middleweight.
+- Middleweight.
+- Super welterweight.
+- Welterweight.
+- Super lightweight.
+- Lightweight.
+- Super featherweight.
+- Featherweight.
+- Bantamweight.
+- Flyweight.
+
+Allow administrators to add or modify divisions.
+
+Each ranking table must contain:
+- Position.
+- Fighter name.
+- Portrait.
+- Country.
+- Record.
+- Previous position.
+- Position movement.
+- Ranking date.
+- Source or methodology.
+
+Include:
+- Search.
+- Division selector.
+- Sort controls.
+- Ranking history.
+- Fighter detail links.
+- Mobile-friendly tables.
+
+Important: Rankings shown in the demonstration must be labeled as sample rankings.
+
+Do not falsely claim that a fictional ranking is official.
+
+==================================================
+7. ADVANCED BOXING STATISTICS
+==================================================
+
+Build an analytics dashboard with interactive charts.
+
+Display:
+- Wins by fighter.
+- Knockout counts.
+- Win percentages.
+- Division distribution.
+- Fighter nationality distribution.
+- Event frequency.
+- Recent results.
+- Career progression.
+- Fighter comparison statistics.
+
+Use a professional chart library such as Recharts.
+
+Charts must:
+- Have readable labels.
+- Include tooltips.
+- Support responsive resizing.
+- Use consistent visual styling.
+- Handle missing data.
+- Update when filters change.
+
+Calculate statistics from actual application records.
+
+Clearly document the formulas used.
+
+Never divide by zero.
+
+Do not treat missing values as confirmed zero values.
+
+==================================================
+8. NEWS AND EDITORIAL SYSTEM
+==================================================
+
+Build a professional boxing news platform.
+
+Categories:
+- Breaking News.
+- Championship News.
+- Fighter Interviews.
+- Event Previews.
+- Fight Results.
+- Training and Conditioning.
+- Boxing History.
+- Amateur Boxing.
+
+Article page features:
+- Headline.
+- Subtitle.
+- Hero image.
+- Author.
+- Publication date.
+- Reading time.
+- Article body.
+- Related articles.
+- Category tags.
+- Social sharing.
+- Bookmark button.
+- Print-friendly layout.
+
+Use original demonstration articles.
+
+For external images, verify that the source is appropriate for use.
+
+Do not hotlink restricted images or pretend that demonstration articles are real breaking news.
+
+Add a clear publication label for sample content.
+
+==================================================
+9. BOXING TRAINING CENTER
+==================================================
+
+Build an educational boxing training section focused on fitness, coordination, technique awareness, and general athletic development.
+
+Include:
+- Warm-up education.
+- Footwork fundamentals.
+- Balance exercises.
+- Coordination drills.
+- General fitness.
+- Mobility.
+- Recovery.
+- Rest and sleep education.
+- Training session planner.
+- Beginner learning paths.
+- Progress tracking.
+
+Each exercise page should include:
+- Exercise name.
+- Educational description.
+- Skill category.
+- Difficulty level.
+- General safety notes.
+- Demonstration illustration or appropriately licensed instructional media.
+- Duration or repetitions where appropriate.
+- Rest guidance.
+- Completion checkbox.
+
+Make the interface suitable for beginners.
+
+Do not encourage dangerous sparring, unsupervised fighting, extreme training, or training through pain.
+
+Explain that contact training should be supervised by a qualified coach and that protective equipment and appropriate medical guidance matter.
+
+Allow users to save their learning progress locally.
+
+==================================================
+10. PERSONAL USER DASHBOARD
+==================================================
+
+Create a user dashboard with:
+- Favorite fighters.
+- Favorite events.
+- Saved articles.
+- Recently viewed profiles.
+- Training progress.
+- Notification preferences.
+- Language preferences.
+- Theme preferences.
+- Account settings.
+
+When users are signed out, display a clear sign-in prompt.
+
+Persist appropriate preferences locally for guest users.
+
+When authentication is enabled, associate private user data with the authenticated account.
+
+Users must not be able to access another user's private information.
+
+==================================================
+11. AUTHENTICATION AND BACKEND
+==================================================
+
+Use a clean, maintainable full-stack architecture.
+
+Preferred technologies:
+- React.
+- TypeScript.
+- Modern CSS or Tailwind CSS.
+- Node.js backend.
+- Firebase Authentication.
+- Cloud Firestore.
+- Recharts.
+- Lucide icons.
+- A suitable image optimization solution.
+
+Use the framework and project structure supported by Google AI Studio.
+
+Implement:
+- Sign up.
+- Sign in.
+- Sign out.
+- Password recovery where supported.
+- Google sign-in where properly configured.
+- Session handling.
+- Loading states.
+- Form validation.
+- Error messages.
+- Protected account pages.
+
+If Firebase setup requires user configuration, explain the exact setup needed and implement the integration cleanly.
+
+Never pretend that authentication works if the required credentials or provider configuration are missing.
+
+Store secrets on the server.
+
+Never expose API keys, privileged credentials, or administrative secrets in frontend code.
+
+Validate inputs on both client and server.
+
+Enforce authorization rules on the backend.
+
+==================================================
+12. ADMINISTRATOR DASHBOARD
+==================================================
+
+Create a separate protected administration area.
+
+Route:
+
+/admin
+
+Admin features:
+- Overview dashboard.
+- Fighter management.
+- Event management.
+- Ranking management.
+- News article management.
+- Training content management.
+- Image management.
+- User management.
+- Content publication controls.
+- Data import and export.
+- Audit log.
+- Search.
+- Filters.
+- Pagination.
+
+CRUD operations must support:
+- Create.
+- Read.
+- Update.
+- Delete.
+
+Use confirmation dialogs for destructive operations.
+
+Validate forms before saving.
+
+Show success and error notifications.
+
+Prevent unauthorized users from accessing admin features.
+
+Do not use a frontend-only admin password as the sole security mechanism.
+
+Enforce admin authorization on the server or through correctly configured authentication and database security rules.
+
+==================================================
+13. ADVANCED SEARCH
+==================================================
+
+Create a global search interface.
+
+Search across:
+- Fighters.
+- Events.
+- News.
+- Training articles.
+- Weight divisions.
+
+Features:
+- Search suggestions.
+- Keyboard navigation.
+- Recent searches.
+- Category filters.
+- Highlighted matches.
+- Clear search.
+- No-results page.
+
+Search must use the actual application dataset.
+
+Ensure that keyboard users can operate the entire search interface.
+
+==================================================
+14. INTERNATIONALIZATION
+==================================================
+
+Support:
+- English.
+- Uzbek.
+
+Provide a visible language selector.
+
+Translate:
+- Navigation.
+- Buttons.
+- Forms.
+- Empty states.
+- Error messages.
+- Dashboard labels.
+- Main interface content.
+
+Preserve the selected language between visits.
+
+Use a proper translation dictionary rather than scattered conditional strings.
+
+The default language can be English, with Uzbek fully supported.
+
+Do not mix languages randomly within the same interface.
+
+==================================================
+15. REALISTIC VISUAL ASSETS
+==================================================
+
+Use high-quality, realistic sports photography.
+
+Preferred imagery:
+- Professional boxing arenas.
+- Empty championship rings.
+- Athletes preparing for training.
+- Boxing gloves and hand wraps.
+- Coaches in training facilities.
+- Arena spotlights.
+- Audience silhouettes.
+- Sports editorial portraits.
+
+Use appropriately licensed image sources or original generated assets.
+
+Never depend on broken URLs or unverified image endpoints.
+
+Implement:
+- Image loading states.
+- Fallback images.
+- Correct aspect ratios.
+- Responsive image sizes.
+- Lazy loading.
+- Alt text.
+- Appropriate image compression.
+
+Use cinematic photographic composition rather than cartoon illustrations for the primary visual identity.
+
+Use fictional athlete portraits for fictional profiles.
+
+Do not create misleading portraits of real athletes or present AI-generated athlete imagery as authentic documentary photography.
+
+==================================================
+16. OPTIONAL 3D ARENA EXPERIENCE
+==================================================
+
+Where performance allows, create an optional immersive arena section using React Three Fiber or another suitable WebGL solution.
+
+The experience may include:
+- A stylized but realistic-looking boxing ring.
+- Ring ropes.
+- Canvas mat.
+- Overhead lights.
+- Arena seating.
+- Subtle camera movement.
+- Carefully controlled lighting.
+
+Keep the 3D scene lightweight.
+
+Provide a static photographic fallback.
+
+Respect reduced-motion preferences.
+
+Do not make the entire website depend on WebGL.
+
+Do not load large 3D assets before they are needed.
+
+The 3D scene must enhance the experience rather than reduce usability.
+
+==================================================
+17. MICRO-INTERACTIONS AND ANIMATIONS
+==================================================
+
+Use polished, restrained animations.
+
+Include:
+- Smooth page transitions.
+- Subtle hover effects.
+- Button feedback.
+- Card transitions.
+- Animated counters based on actual data.
+- Skeleton loading states.
+- Modal transitions.
+- Dropdown animations.
+- Scroll-triggered reveals where appropriate.
+
+Use CSS transitions or Framer Motion if available.
+
+Respect the prefers-reduced-motion accessibility setting.
+
+Avoid excessive animation, distracting effects, and unnecessary background video.
+
+==================================================
+18. RESPONSIVE DESIGN
+==================================================
+
+The complete website must work on:
+- Mobile phones.
+- Tablets.
+- Laptops.
+- Desktop monitors.
+- Large screens.
+
+Test layouts at approximately:
+- 360px.
+- 390px.
+- 768px.
+- 1024px.
+- 1440px.
+
+Mobile requirements:
+- No horizontal overflow.
+- Touch-friendly controls.
+- Collapsible navigation.
+- Responsive fighter cards.
+- Readable statistics.
+- Mobile-friendly charts.
+- Accessible dialogs.
+- Proper image cropping.
+
+Never simply shrink the desktop layout.
+
+Design a genuinely responsive mobile experience.
+
+==================================================
+19. PERFORMANCE, ACCESSIBILITY, AND SEO
+==================================================
+
+Implement:
+- Semantic HTML.
+- Keyboard accessibility.
+- Visible focus states.
+- Appropriate ARIA attributes.
+- Accessible color contrast.
+- Descriptive page titles.
+- Meta descriptions.
+- Open Graph metadata.
+- Structured data where appropriate.
+- Sitemap support.
+- Robots configuration.
+- Lazy loading.
+- Code splitting.
+- Error boundaries.
+- Appropriate caching.
+- Image optimization.
+
+Do not claim a performance score without actually measuring it.
+
+Avoid unnecessary dependencies.
+
+Keep components reusable and maintainable.
+
+==================================================
+20. DATA MODEL AND CONTENT
+==================================================
+
+Create a consistent data model for:
+
+Fighters:
+- id
+- slug
+- name
+- nickname
+- nationality
+- division
+- stance
+- height
+- reach
+- birthDate
+- wins
+- losses
+- draws
+- knockouts
+- ranking
+- biography
+- portraitUrl
+- status
+- isDemoData
+
+Events:
+- id
+- slug
+- title
+- date
+- venue
+- location
+- status
+- mainEvent
+- undercard
+- posterUrl
+- officialSource
+- isDemoData
+
+Articles:
+- id
+- slug
+- title
+- subtitle
+- body
+- author
+- category
+- publishedAt
+- imageUrl
+- publicationStatus
+- isDemoData
+
+Rankings:
+- id
+- division
+- fighterId
+- position
+- previousPosition
+- rankingDate
+- source
+- isDemoData
+
+Training content:
+- id
+- title
+- category
+- difficulty
+- description
+- duration
+- safetyNotes
+
+User preferences:
+- userId
+- favoriteFighterIds
+- favoriteEventIds
+- savedArticleIds
+- language
+- theme
+
+Use normalized references where appropriate.
+
+Provide seed data for local development.
+
+Ensure that references between fighters, events, rankings, and articles remain consistent.
+
+==================================================
+21. FUNCTIONAL REQUIREMENTS
+==================================================
+
+This is a strict requirement.
+
+Every visible interactive element must work.
+
+Verify:
+- All navigation links.
+- All buttons.
+- All forms.
+- All search controls.
+- All filters.
+- All sort controls.
+- All tabs.
+- All modals.
+- All dropdowns.
+- All favorite buttons.
+- All pagination.
+- All charts.
+- All language controls.
+- All theme controls.
+- All account actions.
+- All admin CRUD actions.
+
+Use realistic loading, success, empty, and error states.
+
+Do not add buttons that do nothing.
+
+If an external integration is not configured, explain that clearly and provide an appropriate disabled state rather than pretending it works.
+
+Persist user preferences and saved items appropriately.
+
+Never display fake live data as real-time information.
+
+If live sports data is unavailable, show clearly labeled sample data or a timestamped last-updated dataset.
+
+==================================================
+22. TESTING AND QUALITY ASSURANCE
+==================================================
+
+After implementation:
+
+1. Run the available build process.
+2. Fix TypeScript errors.
+3. Fix runtime errors.
+4. Resolve missing imports.
+5. Verify all routes.
+6. Test navigation.
+7. Test forms.
+8. Test search.
+9. Test filters.
+10. Test sorting.
+11. Test responsive layouts.
+12. Test loading and error states.
+13. Test authentication flows where configured.
+14. Test authorization.
+15. Test admin operations.
+16. Inspect image loading.
+17. Check browser console errors.
+18. Verify that all internal links lead to valid pages.
+19. Check for horizontal overflow.
+20. Ensure that no primary feature is merely a decorative placeholder.
+
+Do not claim a test passed unless it was actually executed.
+
+Prioritize fixing critical bugs before adding optional features.
+
+==================================================
+23. IMPLEMENTATION STRATEGY
+==================================================
+
+Build the project in a structured, production-minded way.
+
+First:
+- Inspect the available project environment.
+- Establish the application architecture.
+- Build the design system.
+- Create the navigation and page layouts.
+- Implement the homepage.
+
+Second:
+- Implement the fighter directory and profiles.
+- Implement events and rankings.
+- Implement statistics and news.
+- Implement training and user dashboard.
+
+Third:
+- Add backend persistence.
+- Add authentication.
+- Add the admin dashboard.
+- Add data validation and access control.
+
+Fourth:
+- Add refined animations.
+- Improve photography and image handling.
+- Optimize mobile layouts.
+- Run tests and fix errors.
+
+Do not stop after producing a homepage screenshot.
+
+Continue until the main application routes and essential interactions are implemented.
+
+If the entire project cannot fit into one generation pass, finish a coherent working foundation first and then continue with the remaining modules without breaking existing functionality.
+
+==================================================
+24. FINAL ACCEPTANCE CRITERIA
+==================================================
+
+The final result must include:
+
+- A cinematic, professional homepage.
+- A functional fighter directory.
+- Detailed fighter profile pages.
+- Fighter comparison.
+- Upcoming and completed event pages.
+- Championship rankings.
+- Interactive statistics.
+- A boxing news section.
+- An educational training center.
+- A personal dashboard.
+- Search and filtering.
+- English and Uzbek language support.
+- Responsive design.
+- Realistic sports photography.
+- Authentication integration.
+- Database integration.
+- Protected administration.
+- Working CRUD operations.
+- Error handling.
+- Accessibility improvements.
+- SEO foundations.
+- A consistent design system.
+
+The site must look like a premium boxing sports media platform rather than a generic AI-generated template.
+
+Use realistic visual details, carefully chosen typography, believable content structure, high-quality photography, consistent spacing, and professional interactions.
+
+Make sensible engineering decisions without asking unnecessary questions.
+
+Start building the actual application now.
+
+Generate the code, create the required files, implement the features, and verify the available functionality.
+
+Do not return only a plan or a description.
+
+BUILD THE WEBSITE.

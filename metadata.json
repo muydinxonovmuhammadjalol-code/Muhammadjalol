@@ -1,0 +1,6 @@
+{
+  "name": "RING LEGACY",
+  "description": "International professional boxing platform featuring fighter profiles, championship rankings, fight schedules, analytics, training academy, and editorial sports journalism.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
