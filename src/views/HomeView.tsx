@@ -129,11 +129,19 @@ export const HomeView: React.FC<HomeViewProps> = ({
               {/* CTAs */}
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-2">
                 <button
+                  onClick={() => onSelectTab('fight')}
+                  className="px-6 py-3.5 bg-gradient-to-r from-red-600 via-[#D4AF37] to-red-600 hover:brightness-110 text-black font-black text-xs uppercase tracking-wider font-display rounded transition-all shadow-xl shadow-red-500/20 flex items-center gap-2 transform hover:scale-105"
+                >
+                  <span className="w-2.5 h-2.5 rounded-full bg-white animate-ping" />
+                  <span>{t.fightNowCTA}</span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+
+                <button
                   onClick={() => onSelectTab('fighters')}
-                  className="px-6 py-3.5 bg-[#D4AF37] hover:bg-[#E5C158] text-black font-bold text-xs uppercase tracking-wider font-display rounded transition-all shadow-lg shadow-[#D4AF37]/20 flex items-center gap-2"
+                  className="px-5 py-3.5 bg-[#D4AF37] hover:bg-[#E5C158] text-black font-bold text-xs uppercase tracking-wider font-display rounded transition-all flex items-center gap-2"
                 >
                   <span>{t.exploreFighters}</span>
-                  <ArrowRight className="w-4 h-4" />
                 </button>
 
                 <button

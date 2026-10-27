@@ -20,6 +20,7 @@ import { NewsView } from './views/NewsView';
 import { TrainingView } from './views/TrainingView';
 import { DashboardView } from './views/DashboardView';
 import { AdminView } from './views/AdminView';
+import { FightGameView } from './views/FightGameView';
 
 import {
   INITIAL_FIGHTERS,
@@ -378,6 +379,20 @@ export default function App() {
   const activeEvent = events.find((e) => e.id === selectedEventId) || null;
   const activeArticle = articles.find((a) => a.id === selectedArticleId) || null;
   const activeTraining = training.find((t) => t.id === selectedTrainingId) || null;
+
+  // Full-viewport Game Shell (never renders website navbars or footers during play)
+  if (activeTab === 'fight') {
+    return (
+      <FightGameView
+        fighters={fighters}
+        lang={lang}
+        onExit={() => {
+          setActiveTab('home');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      />
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#090A0C] text-[#EDEDED] flex flex-col font-body selection:bg-[#D4AF37]/30 selection:text-white">

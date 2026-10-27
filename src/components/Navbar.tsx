@@ -75,6 +75,15 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* ZONE 3: Primary Action & Utilities */}
           <div className="flex items-center gap-2.5 shrink-0">
+            {/* Fight Now Primary Action */}
+            <button
+              onClick={() => onSelectTab('fight')}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold font-display uppercase tracking-wider text-black bg-gradient-to-r from-[#D4AF37] to-[#E5C158] hover:scale-105 rounded shadow-md transition-all whitespace-nowrap"
+            >
+              <span className="w-2 h-2 rounded-full bg-red-600 animate-ping" />
+              <span>{t.navFightGame}</span>
+            </button>
+
             {/* Global Search Button */}
             <button
               onClick={onOpenSearch}
@@ -178,6 +187,16 @@ export const Navbar: React.FC<NavbarProps> = ({
               <ArrowRight className="w-4 h-4 text-[#505768]" />
             </button>
           ))}
+          <button
+            onClick={() => {
+              onSelectTab('fight');
+              setMobileMenuOpen(false);
+            }}
+            className="w-full py-2.5 px-3 rounded text-sm font-black uppercase tracking-wider font-display flex items-center justify-between bg-gradient-to-r from-[#D4AF37] to-[#E5C158] text-black"
+          >
+            <span>🥊 {t.fightNowCTA}</span>
+            <ArrowRight className="w-4 h-4" />
+          </button>
           <div className="pt-2 border-t border-[#1E232E] flex items-center justify-between">
             <button
               onClick={() => {
